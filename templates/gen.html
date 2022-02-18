@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+	
+	<head>
+
+		<meta charset="utf-8">
+		<title>Decks Masterclass</title>
+		<link rel="stylesheet" href="/static/Col2.css">
+
+	</head>
+	
+	<div class="menu">
+
+		<center><span class="bouton"><a href='/'><img id="acne" src="/static/images/accueillir.png" width="200" height="180"></a></span></center>
+	</div>
+	
+	<body>
+		
+		<h1>Juste en dessous, tu pourras créer ton deck de crack</h1>
+<ul>
+				{% for carte in cartes%}
+				<h2> [{{ carte[2] }}]: {{ carte[0] }}</h2>
+				<img id="sheesh" src="{{ carte[1] }}"/>
+				<br> 
+				{% endfor %}
+			</ul>		
+		</div>
+	<h2>pris en flagment délire</h2>
+	</body>
+
+</html>
+		
